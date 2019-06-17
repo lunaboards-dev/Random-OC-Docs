@@ -23,7 +23,7 @@ struct ProximaFS_SuperblockEnt {
 	unsigned char inode_byte_offset; //Multiply by 4
 };
 ```
-An entry with an inode offset of 0 is unallocated.
+An entry with an inode size of 0 is unallocated.
 
 An inode is as follows:
 
