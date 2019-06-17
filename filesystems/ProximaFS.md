@@ -1,5 +1,8 @@
 # ProximaFS
-A simple filesystem for OpenComputers
+A simple filesystem for OpenComputers.
+
+## Notes
+All integers are little endian. Root is always inode 0. OSDI partition ID is `proxima*`
 
 ## Layout of ProximaFS
 The first logical sector always contains an x86 loop (`EB FE 90`) at the very beginning, and the rest of the filesystem info.
