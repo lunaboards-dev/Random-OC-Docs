@@ -37,3 +37,5 @@ struct ProximaFS_Inode {
 	unsigned short fsize;
 };
 ```
+
+Inodes use a 12.4 format, and as such, an entry called "I_want_die.txt" is stored as `I_want_die<null><null>txt`
