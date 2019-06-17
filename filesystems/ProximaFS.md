@@ -41,4 +41,4 @@ struct ProximaFS_Inode {
 };
 ```
 
-Inodes use a 12.4 format, and as such, an entry called "I_want_die.txt" is stored as `I_want_die<null><null>txt<null>`
+Inodes use a 11.4 format, and as such, an entry called "I_want_die.txt" is stored as `I_want_die<null><null>txt<null><null>`
