@@ -28,4 +28,6 @@ As of Version 1.0, the following categories are available for use.
 | `archive/urf` | `.urf` | 2019-7-30 |
 | `media/dfpwm` | `.dfpwm` | 2019-7-30 |
 | `text/txt` | `.txt` | 2019-7-30 |
-| `text/json` | `.json` | 2019-7-30 |
+| `application/json` | `.json` | 2019-7-30 |
+| `application/lua-table` | *N/A* | 2019-7-30 |
+| `text/ohml` | `.ohml` | 2019-7-30 |
