@@ -3,7 +3,7 @@
 The MMTI provides a way to identify data types without an extension, and to differentiate files with the same extension. One can only make so many recognisable extensions with 4 latin characters. Some data is not to be used as a file, but still needs a way to be identified.
 
 ## Format
-An MMTI string takes the format of `category/type`. For example, a Lua script would be `application/lua`. A CPIO archive would be `archive/cpio`, etc.
+An MMTI string takes the format of `category/type`. For example, a Lua script would be `application/lua`. A CPIO archive would be `archive/cpio`, etc. MMTI strings should only use US-ASCII characters.
 
 ## Unregistered MMTI strings
 MMTI strings that aren't registered should prefix the type with `x-`, such as `application/x-zoryapkg`.
