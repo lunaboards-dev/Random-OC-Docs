@@ -1,0 +1,11 @@
+# MMTI type, tab, extensions
+application/lua	lua
+application/lua-binary	luac
+application/lua-assembly	luas
+archive/binary-cpio	bcpio,cpio
+# archive/urf	urf
+media/dfpwm	dfpwm
+text/txt	txt
+application/json	json
+application/lua-table	ltn,lson,lon
+text/ohml	ohml,ohm
