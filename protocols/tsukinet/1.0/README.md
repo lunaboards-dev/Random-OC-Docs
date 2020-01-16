@@ -37,6 +37,15 @@ There are a few bridge trunks, though some, if not all, may never go into use.
 | Flags | Little endian unsigned 16-bit integer | See flags below |
 | Message | Data | |
 
+## TN Packet hints
+| Hint | Type |
+| --- | --- |
+| 0 | None |
+| 1 | ARP |
+| 2 | DG |
+| 3 | RC |
+| 4 | QS |
+
 ## TN Packet flags
 Base flags:
 * Sync (0x1)
