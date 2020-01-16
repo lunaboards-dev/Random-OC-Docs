@@ -1,4 +1,4 @@
-# Tsukinet Reliable Communications (RC/TK), Version 1.0
+# Tsukinet Reliable Communications (RC/TN), Version 1.0
 Tsukinet's RC subprotocol is a synchronous, reliable stream protocol. Hint is 3.
 
 ## Packet format
